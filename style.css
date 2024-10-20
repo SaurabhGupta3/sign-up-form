@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "NorseBold";
+    src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf")
+        format("opentype");
+}
 html,
 body {
     height: 100%;
@@ -6,22 +11,46 @@ body {
 #whole {
     height: 100%;
     width: 100%;
-    background-color: black;
     display: flex;
 }
 #image {
     width: 40%;
     height: 100%;
-    background-color: red;
     overflow: hidden;
+    position: relative;
 }
 #content {
     width: 60%;
     height: 100%;
-    background-color: green;
 }
-img {
+#pic {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+#odin {
+    position: absolute;
+    top: 200px;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 130px;
+    background-color: rgba(0, 0, 0, 40%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#odin-text {
+    font-family: "NorseBold", sans-serif;
+    font-size: 130px;
+    color: white;
+}
+#credit {
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+    color: white;
+}
+a {
+    color: white;
 }
