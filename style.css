@@ -54,3 +54,103 @@ body {
 a {
     color: white;
 }
+#content {
+    display: flex;
+    flex-direction: column;
+}
+#para {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 45px;
+    padding-right: 235px;
+    padding-bottom: 60px;
+    gap: 30px;
+    background-color: whitesmoke;
+}
+#main-form {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+#form {
+    display: flex;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+#form-text {
+    font-size: 22px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+#form {
+    display: flex;
+    gap: 40px;
+}
+#left-form {
+    display: flex;
+    flex-direction: column;
+}
+#right-form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+input {
+    border: none;
+    width: 200px;
+    height: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    outline: none;
+}
+input:focus {
+    border-color: blue;
+}
+#submit-button {
+    flex: 1;
+    padding-left: 40px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: whitesmoke;
+}
+button {
+    border: none;
+    background-color: #596d48;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: #596d48;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#login > a {
+    color: #596d48;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    text-decoration: none;
+}
+#login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
